@@ -3,6 +3,12 @@
   column-gap: 40px;
 }
 
+@media screen and (min-width: 1281px) {
+  .place__header-container {
+    width: 984px;
+  }
+}
+
 @media screen and (max-width: 1279px) {
   .place__header-container {
     column-gap: 32px;

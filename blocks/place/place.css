@@ -1,21 +1,27 @@
 .place {
-  display: flex;
-  flex-direction: column;
-  margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
 }
 
 .place:first-child {
-  margin-top: 0;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 1281px) {
+    .place {
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 1023px) {
-  .place {
-    margin-top: 73px;
-  }
+    .place {
+        margin-top: 73px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-  .place {
-    margin-top: 50px;
-  }
+    .place {
+        margin-top: 50px;
+    }
 }
