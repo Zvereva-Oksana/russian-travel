@@ -1,0 +1,28 @@
+.cover {
+  margin: 92px 48px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  height: calc(100vw*0.578);
+  z-index: 1;
+}
+
+.cover:hover .cover__background {
+  opacity: 0.2;
+}
+
+
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    margin: 90px 0;
+    height: calc(100vw*0.625);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin: 65px 0;
+  }
+}

@@ -1,0 +1,24 @@
+.place__main-container {
+  display: flex;
+  column-gap: 40px;
+  padding-top: 48px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__main-container {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__main-container {
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__main-container {
+    flex-direction: column;
+    padding-top: 32px;
+  }
+}

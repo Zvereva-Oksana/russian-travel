@@ -1,0 +1,6 @@
+.cover__lettering-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16px;
+}
