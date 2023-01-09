@@ -8,12 +8,6 @@
     margin-top: 0;
 }
 
-@media screen and (min-width: 1281px) {
-    .place {
-        align-items: center;
-    }
-}
-
 @media screen and (max-width: 1023px) {
     .place {
         margin-top: 73px;

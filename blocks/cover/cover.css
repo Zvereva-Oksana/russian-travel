@@ -4,27 +4,21 @@
     justify-content: center;
     position: relative;
     align-items: center;
-    height: calc(100vw * 0.578);
+    min-height: 740px;
     z-index: 1;
+    background-image: url("../../images/cover-trains.jpg");
+    background-size: cover;
 }
 
 .cover:hover .cover__background {
-    opacity: 0.2;
-}
-
-@media screen and (min-width: 1281px) {
-    .cover {
-        height: 740px;
-        width: 1184px;
-        margin: 92px calc((100% - 1184px) / 2);
-    }
+    background-color: rgba(0, 0, 0, .8);
 }
 
 
 @media screen and (max-width: 1279px) {
     .cover {
         margin: 90px 0;
-        height: calc(100vw * 0.625);
+        min-height: calc(100vw * 0.625);
     }
 }
 
