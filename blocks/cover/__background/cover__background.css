@@ -6,6 +6,8 @@
   z-index: -1;
   object-fit: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(42, 44, 47, .3);
+  top: 0;
+  left: 0;
 }
 
